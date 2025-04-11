@@ -4,9 +4,9 @@ const { Client, middleware } = require('@line/bot-sdk')
 const app = express()
 
 const config = {
-  channelAccessToken: process . env.'lMn2ChBOoGs2GqPvOEjDX1guoqZWKpw0ipcH3+VMCnsT4d5TB7Z/qS3W1RT0ATU1HrdHGLHuthC0lybXhISwPIakMI5UcLXCMwJG/78nFdyGC72KC+Zz06Ejze/JDk+P4Gd5JdxS9R/RVrV93J4OlwdB04t89/1O/w1cDnyilFU=',
-  channelSecret: process.env.'2f02c9668b282a704b30fd52dfe944bf'
-}
+  channelAccessToken: process.env.CHANNEL_ACCESS_TOKEN,
+  channelSecret: process.env.CHANNEL_SECRET,
+};
 
 // 建立 LINE bot client
 const client = new Client(config)
