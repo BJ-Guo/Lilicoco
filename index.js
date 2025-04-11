@@ -3,7 +3,6 @@ const { Client, middleware } = require('@line/bot-sdk')
 
 const app = express()
 
-// === 請替換為你自己的 Channel secret 和 access token ===
 const config = {
   channelAccessToken: 'lMn2ChBOoGs2GqPvOEjDX1guoqZWKpw0ipcH3+VMCnsT4d5TB7Z/qS3W1RT0ATU1HrdHGLHuthC0lybXhISwPIakMI5UcLXCMwJG/78nFdyGC72KC+Zz06Ejze/JDk+P4Gd5JdxS9R/RVrV93J4OlwdB04t89/1O/w1cDnyilFU=',
   channelSecret: '2f02c9668b282a704b30fd52dfe944bf'
