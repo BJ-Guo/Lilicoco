@@ -25,7 +25,7 @@ function handleEvent(event) {
   }
 
   const userMessage = event.message.text
-  const replyText = `✨你好，我是真實源的引路人倍禎✨\n你說的是：「${userMessage}」對嗎？`
+  const replyText = `✨你好，我是真實源✨\n你說的是：「${userMessage}」對嗎？`
 
   return client.replyMessage(event.replyToken, {
     type: 'text',
